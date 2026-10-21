@@ -1,0 +1,808 @@
+{
+  "global_image_index": 202,
+  "identity": 20,
+  "peak_weight": 0.08208732701976454,
+  "peak_round": 85,
+  "prediction_history": [
+    {
+      "round": 1,
+      "prediction": 0,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.004779411764705883,
+      "alpha": 1.928960590741541
+    },
+    {
+      "round": 2,
+      "prediction": 2,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.005439914163090128,
+      "alpha": 1.8760848386935935
+    },
+    {
+      "round": 3,
+      "prediction": 3,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0063443052162790005,
+      "alpha": 2.0347107647603195
+    },
+    {
+      "round": 4,
+      "prediction": 4,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.007674719350565838,
+      "alpha": 2.23944123050587
+    },
+    {
+      "round": 5,
+      "prediction": 8,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.00996247282866977,
+      "alpha": 2.5590536401940347
+    },
+    {
+      "round": 6,
+      "prediction": 12,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0200252397039319,
+      "alpha": 3.7233457907563974
+    },
+    {
+      "round": 7,
+      "prediction": 20,
+      "true_label": 20,
+      "misclassified": false,
+      "weight_after_update": 0.0008206992099819773,
+      "alpha": 4.110896781716143
+    },
+    {
+      "round": 8,
+      "prediction": 18,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0011319589891771362,
+      "alpha": 2.7831866205654037
+    },
+    {
+      "round": 9,
+      "prediction": 3,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0015261378820581129,
+      "alpha": 2.7033114857202367
+    },
+    {
+      "round": 10,
+      "prediction": 2,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.00220631374830457,
+      "alpha": 2.935312008653367
+    },
+    {
+      "round": 11,
+      "prediction": 4,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.003268102807783023,
+      "alpha": 3.008155302177462
+    },
+    {
+      "round": 12,
+      "prediction": 8,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.005170518099946001,
+      "alpha": 3.1898442322094755
+    },
+    {
+      "round": 13,
+      "prediction": 12,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.00725929795621436,
+      "alpha": 2.8425317472172944
+    },
+    {
+      "round": 14,
+      "prediction": 16,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.010513208248795456,
+      "alpha": 2.940727584559172
+    },
+    {
+      "round": 15,
+      "prediction": 14,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.016475000431752183,
+      "alpha": 3.164759839160488
+    },
+    {
+      "round": 16,
+      "prediction": 20,
+      "true_label": 20,
+      "misclassified": false,
+      "weight_after_update": 0.001304421497645454,
+      "alpha": 2.8902029791872734
+    },
+    {
+      "round": 17,
+      "prediction": 3,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0018461837144493419,
+      "alpha": 2.8686431126572107
+    },
+    {
+      "round": 18,
+      "prediction": 4,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0026764876226416383,
+      "alpha": 2.9438928807541496
+    },
+    {
+      "round": 19,
+      "prediction": 2,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0039352927906886204,
+      "alpha": 2.9863278233894466
+    },
+    {
+      "round": 20,
+      "prediction": 8,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.006083245271569155,
+      "alpha": 3.128194078730227
+    },
+    {
+      "round": 21,
+      "prediction": 15,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.009856105877855017,
+      "alpha": 3.2506926460864394
+    },
+    {
+      "round": 22,
+      "prediction": 20,
+      "true_label": 20,
+      "misclassified": false,
+      "weight_after_update": 0.0007441944232621339,
+      "alpha": 2.960346750468183
+    },
+    {
+      "round": 23,
+      "prediction": 14,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0010262098533294862,
+      "alpha": 2.7824251073666737
+    },
+    {
+      "round": 24,
+      "prediction": 25,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.001486077552936845,
+      "alpha": 2.9404784629969263
+    },
+    {
+      "round": 25,
+      "prediction": 28,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0022275972310735665,
+      "alpha": 3.042573453799527
+    },
+    {
+      "round": 26,
+      "prediction": 4,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0033337497719882793,
+      "alpha": 3.0379630070993864
+    },
+    {
+      "round": 27,
+      "prediction": 36,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.004869758677830327,
+      "alpha": 2.9668081967003546
+    },
+    {
+      "round": 28,
+      "prediction": 6,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.006733606940059464,
+      "alpha": 2.791752292924278
+    },
+    {
+      "round": 29,
+      "prediction": 8,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.009635637971423416,
+      "alpha": 2.9035669724647475
+    },
+    {
+      "round": 30,
+      "prediction": 14,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.014273931386416583,
+      "alpha": 3.0083890079164757
+    },
+    {
+      "round": 31,
+      "prediction": 20,
+      "true_label": 20,
+      "misclassified": false,
+      "weight_after_update": 0.0010693614039705857,
+      "alpha": 2.972074039602485
+    },
+    {
+      "round": 32,
+      "prediction": 3,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0015227849472253929,
+      "alpha": 2.8881768618090407
+    },
+    {
+      "round": 33,
+      "prediction": 2,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.002159648310211686,
+      "alpha": 2.8751967215186367
+    },
+    {
+      "round": 34,
+      "prediction": 30,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0031525075795090546,
+      "alpha": 2.9647201758728188
+    },
+    {
+      "round": 35,
+      "prediction": 15,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.004459468209428034,
+      "alpha": 2.8669395981550068
+    },
+    {
+      "round": 36,
+      "prediction": 6,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.006341866836479202,
+      "alpha": 2.883935094255738
+    },
+    {
+      "round": 37,
+      "prediction": 24,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0091049487831142,
+      "alpha": 2.9138474818375553
+    },
+    {
+      "round": 38,
+      "prediction": 22,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.012180700225627516,
+      "alpha": 2.6750060882729443
+    },
+    {
+      "round": 39,
+      "prediction": 12,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.019173728589634422,
+      "alpha": 3.1765648130882376
+    },
+    {
+      "round": 40,
+      "prediction": 20,
+      "true_label": 20,
+      "misclassified": false,
+      "weight_after_update": 0.0011056662166126691,
+      "alpha": 3.396112294967008
+    },
+    {
+      "round": 41,
+      "prediction": 2,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0016360853732061945,
+      "alpha": 3.005144049416078
+    },
+    {
+      "round": 42,
+      "prediction": 27,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0022678613732083092,
+      "alpha": 2.8000847143673613
+    },
+    {
+      "round": 43,
+      "prediction": 8,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0031899778312850374,
+      "alpha": 2.848627519350566
+    },
+    {
+      "round": 44,
+      "prediction": 24,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.004619505751657884,
+      "alpha": 2.94049645759931
+    },
+    {
+      "round": 45,
+      "prediction": 22,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.006535356776466964,
+      "alpha": 2.8672867532809896
+    },
+    {
+      "round": 46,
+      "prediction": 12,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.009817840542627748,
+      "alpha": 3.048828254655188
+    },
+    {
+      "round": 47,
+      "prediction": 14,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.013778171877058565,
+      "alpha": 2.841137399060853
+    },
+    {
+      "round": 48,
+      "prediction": 20,
+      "true_label": 20,
+      "misclassified": false,
+      "weight_after_update": 0.00114955767989218,
+      "alpha": 2.814552367620623
+    },
+    {
+      "round": 49,
+      "prediction": 2,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0015668829629577408,
+      "alpha": 2.7422098769607968
+    },
+    {
+      "round": 50,
+      "prediction": 4,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0022436175691405067,
+      "alpha": 2.9055857267804392
+    },
+    {
+      "round": 51,
+      "prediction": 0,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0033443272461683832,
+      "alpha": 3.0264475776320574
+    },
+    {
+      "round": 52,
+      "prediction": 39,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.00481530847803955,
+      "alpha": 2.922825370678431
+    },
+    {
+      "round": 53,
+      "prediction": 24,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.00698439936926546,
+      "alpha": 2.945401268398361
+    },
+    {
+      "round": 54,
+      "prediction": 34,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.009750360559320135,
+      "alpha": 2.82380429320369
+    },
+    {
+      "round": 55,
+      "prediction": 12,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.014406593799647016,
+      "alpha": 3.000808813707096
+    },
+    {
+      "round": 56,
+      "prediction": 20,
+      "true_label": 20,
+      "misclassified": false,
+      "weight_after_update": 0.00084422756180372,
+      "alpha": 3.3679089970145424
+    },
+    {
+      "round": 57,
+      "prediction": 20,
+      "true_label": 20,
+      "misclassified": false,
+      "weight_after_update": 5.816526455194084e-05,
+      "alpha": 3.1005775066819927
+    },
+    {
+      "round": 58,
+      "prediction": 0,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 8.135985994137906e-05,
+      "alpha": 2.830316362838762
+    },
+    {
+      "round": 59,
+      "prediction": 39,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.00010900017959919113,
+      "alpha": 2.6802793196366164
+    },
+    {
+      "round": 60,
+      "prediction": 8,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0001497726963581777,
+      "alpha": 2.770233877875824
+    },
+    {
+      "round": 61,
+      "prediction": 13,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.00021783128989287675,
+      "alpha": 2.9536856845684802
+    },
+    {
+      "round": 62,
+      "prediction": 22,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.00032745252069942454,
+      "alpha": 3.0506732713678293
+    },
+    {
+      "round": 63,
+      "prediction": 12,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.000489134912150735,
+      "alpha": 3.032562196510345
+    },
+    {
+      "round": 64,
+      "prediction": 14,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0006528566285340668,
+      "alpha": 2.6664414793783786
+    },
+    {
+      "round": 65,
+      "prediction": 2,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0009376758140659988,
+      "alpha": 2.9150991765416148
+    },
+    {
+      "round": 66,
+      "prediction": 4,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0013175801951649138,
+      "alpha": 2.8452706186292227
+    },
+    {
+      "round": 67,
+      "prediction": 3,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0019206808419522333,
+      "alpha": 2.960588999253913
+    },
+    {
+      "round": 68,
+      "prediction": 7,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0028057959143158815,
+      "alpha": 2.9669912168123727
+    },
+    {
+      "round": 69,
+      "prediction": 24,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.004013492936243799,
+      "alpha": 2.9023648618353857
+    },
+    {
+      "round": 70,
+      "prediction": 22,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.006081040453013055,
+      "alpha": 3.0729694996913333
+    },
+    {
+      "round": 71,
+      "prediction": 12,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.009069680273128388,
+      "alpha": 3.028138471306758
+    },
+    {
+      "round": 72,
+      "prediction": 4,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.014186328966967724,
+      "alpha": 3.159802855781902
+    },
+    {
+      "round": 73,
+      "prediction": 2,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.019795351307591146,
+      "alpha": 2.822288536956403
+    },
+    {
+      "round": 74,
+      "prediction": 4,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.027501968044503222,
+      "alpha": 2.8077494541489436
+    },
+    {
+      "round": 75,
+      "prediction": 28,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.040191897972654045,
+      "alpha": 2.9681945178122344
+    },
+    {
+      "round": 76,
+      "prediction": 8,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.05840425175139295,
+      "alpha": 2.9510171951830353
+    },
+    {
+      "round": 77,
+      "prediction": 20,
+      "true_label": 20,
+      "misclassified": false,
+      "weight_after_update": 0.004322789154824721,
+      "alpha": 2.990311634736013
+    },
+    {
+      "round": 78,
+      "prediction": 17,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.006494047232656279,
+      "alpha": 3.0488592003774144
+    },
+    {
+      "round": 79,
+      "prediction": 12,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.009195250071120351,
+      "alpha": 2.8700570246313166
+    },
+    {
+      "round": 80,
+      "prediction": 19,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.013171734664292884,
+      "alpha": 2.906791455182168
+    },
+    {
+      "round": 81,
+      "prediction": 4,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.01800623247898846,
+      "alpha": 2.7524772684960195
+    },
+    {
+      "round": 82,
+      "prediction": 39,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.024780014763426547,
+      "alpha": 2.7755617542367523
+    },
+    {
+      "round": 83,
+      "prediction": 3,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.035717107345681134,
+      "alpha": 2.9260980745440577
+    },
+    {
+      "round": 84,
+      "prediction": 8,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.05505132556480416,
+      "alpha": 3.1202752415613233
+    },
+    {
+      "round": 85,
+      "prediction": 24,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.08208732701976454,
+      "alpha": 3.027435119718474
+    },
+    {
+      "round": 86,
+      "prediction": 20,
+      "true_label": 20,
+      "misclassified": false,
+      "weight_after_update": 0.006300262888607005,
+      "alpha": 2.935998787643458
+    },
+    {
+      "round": 87,
+      "prediction": 12,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.008994041720885916,
+      "alpha": 2.8960580049594737
+    },
+    {
+      "round": 88,
+      "prediction": 29,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.01386652784614355,
+      "alpha": 3.1210354065391304
+    },
+    {
+      "round": 89,
+      "prediction": 20,
+      "true_label": 20,
+      "misclassified": false,
+      "weight_after_update": 0.0009613607026692112,
+      "alpha": 3.0907850509715766
+    },
+    {
+      "round": 90,
+      "prediction": 25,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0014576863814689982,
+      "alpha": 3.0750500708261326
+    },
+    {
+      "round": 91,
+      "prediction": 28,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.002275599647019496,
+      "alpha": 3.1546209623890036
+    },
+    {
+      "round": 92,
+      "prediction": 24,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.003277567341008686,
+      "alpha": 2.9238265268656973
+    },
+    {
+      "round": 93,
+      "prediction": 34,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0047565491047011155,
+      "alpha": 2.947053969067072
+    },
+    {
+      "round": 94,
+      "prediction": 23,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.007023232667234675,
+      "alpha": 2.998806555906675
+    },
+    {
+      "round": 95,
+      "prediction": 14,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.010347737923145446,
+      "alpha": 2.9924434085249487
+    },
+    {
+      "round": 96,
+      "prediction": 20,
+      "true_label": 20,
+      "misclassified": false,
+      "weight_after_update": 0.0008488867790869935,
+      "alpha": 2.8387552457720266
+    },
+    {
+      "round": 97,
+      "prediction": 4,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0012693033928781266,
+      "alpha": 3.035445950197994
+    },
+    {
+      "round": 98,
+      "prediction": 3,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0018310773623603767,
+      "alpha": 2.9287041921592336
+    },
+    {
+      "round": 99,
+      "prediction": 19,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.002654833854076682,
+      "alpha": 2.94417643448658
+    },
+    {
+      "round": 100,
+      "prediction": 24,
+      "true_label": 20,
+      "misclassified": true,
+      "weight_after_update": 0.0038281546853690704,
+      "alpha": 2.9273600815184375
+    }
+  ]
+}

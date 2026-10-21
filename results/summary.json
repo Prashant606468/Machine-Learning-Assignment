@@ -1,0 +1,18 @@
+{
+  "selected_tree": {
+    "max_depth": "None",
+    "min_samples_leaf": 4,
+    "train_accuracy": 0.9875,
+    "validation_accuracy": 0.6125,
+    "leaves": 41,
+    "mean_samples_per_leaf": 5.853658536585366,
+    "fraction_singleton_leaves": 0.0,
+    "test_accuracy": 0.625
+  },
+  "selected_bagging_B": 200,
+  "bootstrap_size": 240,
+  "expected_distinct_per_bootstrap": 151.8931938460841,
+  "observed_distinct_at_B200": 151.93,
+  "bagging_fit_seconds_for_200_trees": 186.04535213904455,
+  "oob_note": "OOB accuracy excludes training examples with zero OOB votes."
+}

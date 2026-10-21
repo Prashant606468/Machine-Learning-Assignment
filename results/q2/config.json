@@ -1,0 +1,29 @@
+{
+  "seed": 242009,
+  "depths": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "round_counts": [
+    10,
+    25,
+    50,
+    100
+  ],
+  "comparison_counts": [
+    25,
+    50,
+    100
+  ],
+  "bagging_B_for_Q1_d": 200,
+  "selected_tree": {
+    "max_depth": null,
+    "min_samples_leaf": 4
+  },
+  "selected_boosting": {
+    "depth": 4,
+    "rounds": 100
+  }
+}

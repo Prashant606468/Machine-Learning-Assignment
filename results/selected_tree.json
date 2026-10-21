@@ -1,0 +1,10 @@
+{
+  "max_depth": "None",
+  "min_samples_leaf": 4,
+  "train_accuracy": 0.9875,
+  "validation_accuracy": 0.6125,
+  "leaves": 41,
+  "mean_samples_per_leaf": 5.853658536585366,
+  "fraction_singleton_leaves": 0.0,
+  "test_accuracy": 0.625
+}

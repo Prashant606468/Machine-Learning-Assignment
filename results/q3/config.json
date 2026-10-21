@@ -1,0 +1,32 @@
+{
+  "seed": 242009,
+  "repetitions": 30,
+  "resampling": "within identity, six draws with replacement from original six train faces",
+  "fixed_test_split": "results/split.npz",
+  "selected_tree": {
+    "max_depth": null,
+    "min_samples_leaf": 4
+  },
+  "final_bagging_B": 200,
+  "selected_boosting": {
+    "weak_depth": 4,
+    "rounds": 100
+  },
+  "depth_probes": [
+    {
+      "max_depth": 2,
+      "label": "2"
+    },
+    {
+      "max_depth": null,
+      "label": "None"
+    },
+    {
+      "max_depth": 32,
+      "label": "32"
+    }
+  ],
+  "deep_probe_note": "Selected Q1 max_depth=None is already unlimited; no finite setting can be deeper. The depth-32 probe is the deep finite cap comparator, not deeper than the selected unlimited setting.",
+  "accuracy_std": "sample standard deviation (ddof=1)",
+  "masked_test_used_for": "Q3(d) robustness comparison only; bias and variance use the fixed clean test set"
+}

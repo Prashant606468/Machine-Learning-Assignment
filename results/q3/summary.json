@@ -1,0 +1,137 @@
+{
+  "repetitions": 30,
+  "runtime_seconds": 8810.83055862994,
+  "q3a": [
+    {
+      "model": "single_tree",
+      "bias_squared": 0.35917970521541953,
+      "variance": 0.6250209750566894,
+      "mean_test_accuracy": 0.5075,
+      "std_test_accuracy": 0.051861885546264065
+    },
+    {
+      "model": "bagging",
+      "bias_squared": 0.5065125805555556,
+      "variance": 0.020821544444444444,
+      "mean_test_accuracy": 0.82,
+      "std_test_accuracy": 0.04055115968408471
+    },
+    {
+      "model": "SAMME",
+      "bias_squared": 0.8865022116632282,
+      "variance": 0.016503713740634467,
+      "mean_test_accuracy": 0.30958333333333327,
+      "std_test_accuracy": 0.08456807942404311
+    }
+  ],
+  "q3b_c": [
+    {
+      "model": "single_tree",
+      "depth_label": "2",
+      "bias_squared": 0.9164006617420746,
+      "variance": 0.03896118036318867,
+      "mean_test_accuracy": 0.06083333333333332,
+      "std_test_accuracy": 0.013020761494054692,
+      "mean_leaves": 3.0,
+      "mean_samples_per_leaf": 80.0,
+      "fraction_singleton_leaves": 0.0,
+      "mean_pairwise_test_disagreement": "",
+      "accuracy_gain_vs_single": "",
+      "variance_removed_vs_single": ""
+    },
+    {
+      "model": "bagging_100",
+      "depth_label": "2",
+      "bias_squared": 0.9334201944444445,
+      "variance": 0.012012722222222223,
+      "mean_test_accuracy": 0.12916666666666668,
+      "std_test_accuracy": 0.05911828198085441,
+      "mean_leaves": 3.1413333333333333,
+      "mean_samples_per_leaf": 77.17333333333333,
+      "fraction_singleton_leaves": 0.0,
+      "mean_pairwise_test_disagreement": 0.959705808080808,
+      "accuracy_gain_vs_single": 0.06833333333333336,
+      "variance_removed_vs_single": 0.02694845814096645
+    },
+    {
+      "model": "single_tree",
+      "depth_label": "None",
+      "bias_squared": 0.35917970521541953,
+      "variance": 0.6250209750566894,
+      "mean_test_accuracy": 0.5075,
+      "std_test_accuracy": 0.051861885546264065,
+      "mean_leaves": 40.0,
+      "mean_samples_per_leaf": 6.0,
+      "fraction_singleton_leaves": 0.0,
+      "mean_pairwise_test_disagreement": "",
+      "accuracy_gain_vs_single": "",
+      "variance_removed_vs_single": ""
+    },
+    {
+      "model": "bagging_100",
+      "depth_label": "None",
+      "bias_squared": 0.5053041666666667,
+      "variance": 0.025026583333333335,
+      "mean_test_accuracy": 0.8074999999999999,
+      "std_test_accuracy": 0.0427502772727447,
+      "mean_leaves": 39.32666666666667,
+      "mean_samples_per_leaf": 6.111638466665709,
+      "fraction_singleton_leaves": 0.0,
+      "mean_pairwise_test_disagreement": 0.8282180976430978,
+      "accuracy_gain_vs_single": 0.29999999999999993,
+      "variance_removed_vs_single": 0.5999943917233561
+    },
+    {
+      "model": "single_tree",
+      "depth_label": "32",
+      "bias_squared": 0.4225823065135711,
+      "variance": 0.5169067206058745,
+      "mean_test_accuracy": 0.4566666666666668,
+      "std_test_accuracy": 0.05007896064067799,
+      "mean_leaves": 34.3,
+      "mean_samples_per_leaf": 7.010461186931776,
+      "fraction_singleton_leaves": 0.0,
+      "mean_pairwise_test_disagreement": "",
+      "accuracy_gain_vs_single": "",
+      "variance_removed_vs_single": ""
+    },
+    {
+      "model": "bagging_100",
+      "depth_label": "32",
+      "bias_squared": 0.5098933722222222,
+      "variance": 0.02489921111111111,
+      "mean_test_accuracy": 0.8045833333333333,
+      "std_test_accuracy": 0.044586623039012376,
+      "mean_leaves": 38.303,
+      "mean_samples_per_leaf": 6.277669836261276,
+      "fraction_singleton_leaves": 0.0,
+      "mean_pairwise_test_disagreement": 0.8306388047138048,
+      "accuracy_gain_vs_single": 0.34791666666666654,
+      "variance_removed_vs_single": 0.4920075094947634
+    }
+  ],
+  "q3d": [
+    {
+      "model": "single_tree",
+      "clean_test_accuracy_mean": 0.5075,
+      "masked_test_accuracy_mean": 0.32875,
+      "bias_squared": 0.35917970521541953,
+      "variance": 0.6250209750566894
+    },
+    {
+      "model": "bagging",
+      "clean_test_accuracy_mean": 0.82,
+      "masked_test_accuracy_mean": 0.5987500000000001,
+      "bias_squared": 0.5065125805555556,
+      "variance": 0.020821544444444444
+    },
+    {
+      "model": "SAMME",
+      "clean_test_accuracy_mean": 0.30958333333333327,
+      "masked_test_accuracy_mean": 0.27375,
+      "bias_squared": 0.8865022116632282,
+      "variance": 0.016503713740634467
+    }
+  ],
+  "deep_probe_note": "Selected Q1 max_depth=None is already unlimited; no finite setting can be deeper. The depth-32 probe is the deep finite cap comparator, not deeper than the selected unlimited setting."
+}

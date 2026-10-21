@@ -1,0 +1,36 @@
+{
+  "roll_number": "M24MA2009",
+  "seed": 242009,
+  "dataset": "fetch_olivetti_faces",
+  "features": "raw flattened 64x64 pixels",
+  "train_per_identity": 6,
+  "validation_per_identity": 2,
+  "test_per_identity": 2,
+  "depths": [
+    2,
+    4,
+    8,
+    16,
+    null
+  ],
+  "min_samples_leaf": [
+    1,
+    2,
+    4
+  ],
+  "bagging_B": [
+    1,
+    5,
+    10,
+    25,
+    50,
+    100,
+    200
+  ],
+  "bootstrap_size": 240,
+  "tie_breaking": "grid order; smallest B",
+  "mask_rows_cols": [
+    24,
+    39
+  ]
+}
