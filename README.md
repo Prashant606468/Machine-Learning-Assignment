@@ -1,10 +1,8 @@
-# Assignment 2 — Question 1
+**#Assignment 2 - Question 1**
 
-Reproducible implementation of the decision-tree baseline and bootstrap
-aggregation experiment on Olivetti Faces. All features are raw, flattened
-pixels. The split seed is `242009`, obtained from `M24MA2009`.
+Here we implement decision-tree decision tree baseline and bootstrap aggregation on Olivetti faces.The seed used is '242009' obtained from 'M24MA2009'
 
-## Run
+**# Run**
 
 ```sh
 python -m venv .venv
@@ -13,31 +11,32 @@ python -m pip install -r requirements.txt
 python q1.py --out results
 ```
 
-The first run downloads Olivetti Faces through scikit-learn.It trains on clean images only and evaluates the
-final frozen models on clean and center-masked test data.
 
-Question 2 reuses that exact split and the selected Question 1 settings:
+We download Olivetti Faces through scikit-learn , then we train the Trees on clean images only , and evaluate the final frozen model , chosing the best based on the validation score.
+
+
+**Question 2**
+
+Here we reuse that exact split in question 1.
 
 ```sh
 python q2.py --results results
 ```
 
-Question 2 outputs are written under `results/q2/`. In particular,
-`boosting_grid.csv` contains validation-based model selection,
-`selected_boosting_diagnostics.png` contains the four requested round-wise
-plots, and the comparison and per-example explanations are saved as CSV/JSON.
+Outputs are stored in 'results/q2/'.
 
-Question 3 reuses the saved split and selected settings from Questions 1 and 2:
+**Question 3**
+
+We reuse the saved split and selected settings from Question 1 and 2.
 
 ```sh
 python q3.py --results results
 ```
 
-The full assignment run uses 30 resamples and writes its tables and figure to
-`results/q3/`.Selected tree has `max_depth=None`, which is already
-unlimited; the script therefore uses depth 32 as a deep finite comparator and
-records this limitation in `results/q3/config.json`.
 
-Tree selection and Bagging selection uses validation accuracy only. Ties are resolved by the
-listed grid order (`max_depth` 2, 4, 8, 16, None; then `min_samples_leaf`
-1, 2, 4).
+The full assignment run uses 30 resamples and writes its tables and figure to
+`results/q3/`.
+
+Tree selection and Bagging selection both uses Validation score only.
+
+Thankyou
